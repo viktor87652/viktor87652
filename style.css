@@ -1,0 +1,36 @@
+/* Alapértelmezett stílusok az egész oldalra */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Központozza az app-root tartalmát */
+app-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Példa egy gomb stílusra */
+button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+/* Címsorok formázása */
+h1, h2, h3 {
+  text-align: center;
+  color: #222;
+}
